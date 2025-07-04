@@ -1,0 +1,13 @@
+.about-page {
+  padding: 80px 40px;
+  font-size: 1.5em;
+  line-height: 2.0;
+  font-weight: 400;
+}
+
+.about-page h2 {
+  text-align: center;
+  color:#1F232C;
+  margin-bottom: 30px;
+  font-family: cursive;
+}

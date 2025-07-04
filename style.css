@@ -1,0 +1,161 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+header {
+    background-color: #5C4E4E;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    height: 200px;
+}
+header h1{
+  margin-top: 20px;
+  text-decoration: #122620;
+  font-family: cursive;
+}
+.navbar {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  padding: 15px;
+  margin-top: 50px;
+}
+.navbar a{
+    font-size: 1.7rem;
+    color: whitesmoke;
+    font-weight: 500;
+    margin-left: 3.5rem;
+    transition: 0.3s;
+    font-family: cursive;
+}
+.navbar a:hover, .navbar .active{
+   background-color:#9940b6;
+   border-radius: 6px;
+}
+.menu-toggle {
+  display: none;
+  font-size: 1.8em;
+  color: #f8fafc;
+  cursor: pointer;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}
+section{
+    min-height: 100vh;
+    padding: 10rem 9% 2rem;
+    background-color:#D0D2D7;
+}
+
+.home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 80vh;
+  padding: 20px;
+  text-align: center;
+}
+
+.home h1 {
+  font-size: 2rem;
+}
+
+.home h2 {
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+}
+
+.home-content p {
+  font-size: 1rem;
+  max-width: 600px;
+}
+
+.home-buttons .btn {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: #2563eb;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+}
+
+.home-buttons .btn:hover {
+  background-color: #1e40af;
+}
+footer h3{
+  color: whitesmoke;
+  font-family: cursive;
+}
+.footer {
+  background-color: #1F232C;
+  padding: 20px 0;
+  text-align: center;
+  width: 100%;
+  
+}
+
+.footer-icons {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.footer-icons a {
+  font-size: 1.8em;
+  color: #f1f5f9;
+  transition: color 0.3s ease;
+}
+
+.footer-icons a:hover {
+  color: #60a5fa;
+}
+@media (max-width: 768px) {
+  .menu-toggle {
+      display: block;
+  }
+
+  .navbar {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    background-color: #0f172a;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    padding: 10px 0;
+  }
+
+  .navbar.show {
+    display: flex;
+  }
+
+  .navbar a {
+    padding: 10px 0;
+    border-top: 1px solid #1e293b;
+  }
+  .home h1 {
+    font-size: 1.5rem;
+  }
+
+  .home h2 {
+    font-size: 1.1rem;
+  }
+
+  .edu-card, .pro {
+    width: 90%;
+  }
+}

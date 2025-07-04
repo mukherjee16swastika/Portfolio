@@ -1,0 +1,82 @@
+/*.project {
+  padding: 50px 20px;
+  background-color: #f9fafb;
+  text-align: center;
+}
+
+.project h2 {
+  font-size: 2em;
+  color: #2563eb;
+  margin-bottom: 30px;
+}
+
+/* Flex container for projects */
+/*.project-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+/* Individual project box */
+/*.pro {
+  background-color: white;
+  /*border-radius: 12px;*/
+  /*box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  padding: 20px;
+  transition: transform 0.3s ease;
+}
+
+.pro:hover {
+  transform: translateY(-5px);
+}
+
+.pro h3 {
+  color: #1e293b;
+  margin-bottom: 10px;
+}
+
+.pro p {
+  color: #475569;
+  font-size: 0.95em;
+}*/
+.project h2 {
+  font-size: 2em;
+  color: #1F232C;
+  margin-bottom: 30px;
+  text-align: center;
+  font-family: cursive;
+}
+
+.project-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+/*.project-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* always 2 per row */
+ /* gap: 20px;
+  max-width: 700px;
+  margin: 0 auto;
+  justify-items: center;
+}*/
+
+.pro {
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px #5C4E4E;
+  width: 300px;
+  padding: 20px;
+  transition: transform 0.3s ease;
+}
+
+.pro:hover {
+  transform: translateY(-5px);
+}
